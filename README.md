@@ -1,1 +1,0 @@
-# VulnCTF

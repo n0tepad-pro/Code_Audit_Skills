@@ -1,6 +1,6 @@
 # VulnCTF 的练习教室 | 每日一练
 ## ID：abf20c91a442da48
-### Category：Web
+### Category：Crypto
 ### Description：JSJS
 ### Subject：JS
 ### Remarks: 2017_广东省”强网杯“网络安全大赛
