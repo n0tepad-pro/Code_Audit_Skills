@@ -1,11 +1,11 @@
 # VulnCTF 的练习教室 | 每日一练
-## ID：abf20c91a442da48
+## ID：8f971f70a8d046ab
 ### Category：Crypto
 ### Description：JSJS
 ### Subject：JS
 ### Remarks: 2017_广东省”强网杯“网络安全大赛
 
-#### abf20c91a442da48 Writeup
+#### 8f971f70a8d046ab Writeup
 
 #### 1.Build
 
@@ -21,7 +21,7 @@
     docker run -d -p 8080:80 web
 ```
 
-* 访问 http://主机:端口/abf20c91a442da48/
+* 访问Crypto1题目链接：http://主机:端口/8f971f70a8d046ab/
 
 
 #### 2.Point

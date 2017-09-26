@@ -1,33 +1,33 @@
 # VulnCTF 的练习教室 | 每日一练
-## ID：5d47c5d8a6299792
-### Category：Crypto
-### Description：Hex
-### Subject：Hex
-### Remarks: 偶然发现的，暂不清楚来源
+## ID：abf20c91a442da48
+### Category：Web
+### Description：文件包含（Local File Include）
+### Subject：LFI | 伪协议
+### Remarks: VulnCTF
 
-#### 5d47c5d8a6299792 Writeup
+#### abf20c91a442da48 Writeup
 
 #### 1.Build
 
 1.1 获取镜像：
 
 ```
-    docker build -t web .
+    docker pull vulnctf/web
 ```
 
 1.2 创建并启动容器：
 
 ```
-    docker run -d -p 8080:80 web
+    docker run -d -p 8081:80 vulnctf/web
 ```
 
-* 访问 http://主机:端口/5d47c5d8a6299792/
+* 访问Crypto3题目链接：http://主机:8081/abf20c91a442da48/
 
 
 #### 2.Point
-jother/jsfuck是另类的javascript模式。
+文件包含（Local File Include）
 
-Jother（Jsfuck）是用匿名函数的原生形式，解码则按照编码原理倒过来写个程序。其特点是由“[]，()，{}，+,！”组成的编码后的字符，这是一个JavaScript的绕过代码编码方式。
+要成功的利用文件包含漏洞，需要满足下面两个条件： include（）等函数通过动态变量的方式引入需要包含的文件 用户能够控制该动态变量。
 
 
 #### 3.Writeup
@@ -44,6 +44,6 @@ Jother（Jsfuck）是用匿名函数的原生形式，解码则按照编码原�
 
 #### 4.Reference
 
- WooYun/jother编码之谜:https://github.com/tczhangzhi/WooYun/blob/master/jother%E7%BC%96%E7%A0%81%E4%B9%8B%E8%B0%9C.html
+PHP文件包含介绍及一些利用方式-拿衣服的安全屋：https://zhuanlan.zhihu.com/p/26308699
 
  

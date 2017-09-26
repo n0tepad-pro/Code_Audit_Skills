@@ -1,4 +1,4 @@
 # VulnCTF | Crypto 
-* Web1 : JsFuck | md5校验:abf20c91a442da48
-* Web2 : Hex | md5校验:5d47c5d8a6299792
-* Web3 : JScript.Encode | Unicode | md5校验:3965659da7442e54
+* Crypto1 : JsFuck | md5校验:8f971f70a8d046ab
+* Crypto2 : Hex | md5校验:d9a92ae7020043e9
+* Crypto3 : JScript.Encode | Unicode | md5校验:9763f1b840ce1284
