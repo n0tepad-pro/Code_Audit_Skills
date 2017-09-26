@@ -12,16 +12,16 @@
 1.1 获取镜像：
 
 ```
-    docker build -t web .
+    docker pull vulnctf/crypto
 ```
 
 1.2 创建并启动容器：
 
 ```
-    docker run -d -p 8080:80 web
+    docker run -d -p 8080:80 vulnctf/crypto
 ```
 
-* 访问Crypto1题目链接：http://主机:端口/8f971f70a8d046ab/
+* 访问Crypto1题目链接：http://主机:8080/8f971f70a8d046ab/
 
 
 #### 2.Point
