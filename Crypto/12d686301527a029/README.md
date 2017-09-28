@@ -1,11 +1,11 @@
 # VulnCTF 的练习教室 | 每日一练
-## ID：d9a92ae7020043e9
+## ID：12d686301527a029
 ### Category：Crypto
-### Description：Hex
-### Subject：Hex
-### Remarks: 江湖传说
+### Description：ASCII
+### Subject：ASCII
+### Remarks: 据说是IDF-CTF-牛刀小试 
 
-#### d9a92ae7020043e9 Writeup
+#### 12d686301527a029 Writeup
 
 #### 1.Build
 
@@ -21,15 +21,13 @@
     docker run -d -p 8080:80 vulnctf/crypto
 ```
 
-* 访问Crypto2题目链接：http://主机:8080/d9a92ae7020043e9/
+* 访问Crypto5题目链接：http://主机:8080/12d686301527a029/
 
 
 #### 2.Point
 
 
-
 #### 3.Writeup
-
 
 #### 4.Reference
 

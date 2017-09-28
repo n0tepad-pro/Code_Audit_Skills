@@ -21,7 +21,7 @@
     docker run -d -p 8081:80 vulnctf/web
 ```
 
-* 访问Crypto3题目链接：http://主机:8081/abf20c91a442da48/
+* 访问Web1题目链接：http://主机:8081/abf20c91a442da48/
 
 
 #### 2.Point
@@ -32,18 +32,9 @@
 
 #### 3.Writeup
 
-打开时候是jsfuck编码
-直接拖到控制台发现执行不了，看一下题目，知道了是缺点东西，打开[jsfuck](http://www.jsfuck.com/)，对比一下，发现头部缺少]，补齐以后放入控制台，但是结果如下：
-
-* ![Alt text](src/1.png)
-
-
-感觉像是和我开了一个玩笑，到这都没有思路了，决定换一个网站看一下：[poisonjs](https://ooze.ninja/javascript/poisonjs/)（强烈推荐），看到里面的flag后面紧跟了一alert的弹窗，所以使用控制台执行就会出现弹窗覆盖了前面提示的flag信息，get了。
-
-* ![Alt text](src/1.png)
 
 #### 4.Reference
 
-PHP文件包含介绍及一些利用方式-拿衣服的安全屋：https://zhuanlan.zhihu.com/p/26308699
+
 
  
