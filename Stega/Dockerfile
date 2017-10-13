@@ -2,7 +2,7 @@ FROM medicean/vulapps:base_lamp
 
 MAINTAINER mxh <mxh_xxx@yeah.net>
 
-COPY 1f6120b557b08f9e /var/www/html/1f6120b557b08f9e/
+COPY challenges /var/www/html/
 
 WORKDIR /var/www/html
 
