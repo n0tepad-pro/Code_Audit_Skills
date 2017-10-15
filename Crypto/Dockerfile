@@ -6,7 +6,7 @@ COPY challenges /var/www/html/
 
 WORKDIR /var/www/html
 
-RUN rm -f /var/www/html/index.html /var/www/html/phpinfo.php && \
+RUN rm -f /var/www/html/phpinfo.php && \
 chmod a+x -R 8f971f70a8d046ab/ && \
 chmod a+x -R d9a92ae7020043e9/ && \
 chmod a+x -R 9763f1b840ce1284/ && \
