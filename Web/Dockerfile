@@ -10,4 +10,6 @@ RUN rm -f /var/www/html/phpinfo.php && \
 chmod a+x -R abf20c91a442da48/ && \
 chmod a+x -R 5c55674b83536ad3/ && \
 chmod a+x -R 9630e9ba0442fa3a/ && \
-chmod a+x -R c569d1f25f24fc39/
+chmod a+x -R c569d1f25f24fc39/ && \
+chmod a+x -R de1dd7a18864371c/ && \
+chmod a+x -R c9bf52aa72e0299b/

@@ -1,0 +1,15 @@
+<?php
+
+    $a = @$_GET['a'];
+
+    if ($a == 0) {
+        echo $a;
+    }
+
+    if ($a) {
+        echo $b;
+    }
+
+    $flag = $a.$b;
+
+?>
