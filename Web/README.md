@@ -5,6 +5,7 @@
 * Web4 : PHP优先级 | 绕过and后面的is_numeric() | md5校验:c569d1f25f24fc39
 * Web5 : PHP黑魔法 | ereg()截断 | md5校验:de1dd7a18864371c
 * Web6 : PHP弱类型 | 绕过$a==0 | md5校验:c9bf52aa72e0299b
+* Web7 : PHP黑魔法 | 伪协议绕过file_get_contents() | md5校验:4ca0e6cc62cd6a0a
 
 # VulnCTF
 
