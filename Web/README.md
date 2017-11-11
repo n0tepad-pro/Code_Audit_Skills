@@ -6,6 +6,8 @@
 * Web5 : PHP黑魔法 | ereg()截断 | md5校验:de1dd7a18864371c
 * Web6 : PHP弱类型 | 绕过$a==0 | md5校验:c9bf52aa72e0299b
 * Web7 : PHP黑魔法 | 伪协议绕过file_get_contents() | md5校验:4ca0e6cc62cd6a0a
+* Web8 : PHP黑魔法 | extract变量覆盖 | md5校验:08395e0fda9cae71
+* Web9 : PHP黑魔法 |  | md5校验:	e859844deee8ef60
 
 # VulnCTF
 

@@ -1,0 +1,20 @@
+<?php
+
+$filename = $flag;
+$flag = $flag;
+
+extract($_GET);
+// extract($_GET, EXTR_PREFIX_SAME, "escape");
+
+if (isset($attempt)){
+	$combination = trim(file_get_contents($filename));
+	if ($attempt===$combination){
+		echo "<p>How did you know the secret combinnation was" . "$combinnation !?</p>";
+		$next = file_get_contents($flag);
+		echo $next;
+	}else {
+		echo "Incorrect! The secret combiantion is not $attempt";
+	}
+}
+
+?>
