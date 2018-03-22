@@ -1,4 +1,4 @@
-# VulnCTF 的练习教室 | 每日一练
+# VulnCTF | Web | Writeup
 ### ID：abf20c91a442da48
 ### Category：Web
 ### Description：文件包含（Local File Include）
