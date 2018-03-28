@@ -40,16 +40,24 @@ php://filter 目标使用以下的参数作为它路径的一部分。 复合过
 用户需要输入一个page参数，作为程序员，会希望您访问到Y29uZmln.php中的phpinfo信息，但是攻击者可以获取源代码。
 
 打开页面查看源代码发现注释（图一）
-    ![Alt text](http://p1wq82j1w.bkt.clouddn.com/1_1.png)
-    访问Y29uZmln.php发现执行了phpinfo();（图二）
-    ![Alt text](http://p1wq82j1w.bkt.clouddn.com/1_2.png)
-    但是没有flag，通过php://filter获取Y29uZmln.php源代码（图三）
-    ![Alt text](http://p1wq82j1w.bkt.clouddn.com/1_3.png)
-    Base64解密后得到flag（图四）。
-    ![Alt text](http://p1wq82j1w.bkt.clouddn.com/1_4.png)
+
+![Alt text](http://p1wq82j1w.bkt.clouddn.com/1_1.png)
+
+访问Y29uZmln.php发现执行了phpinfo();（图二）
+
+![Alt text](http://p1wq82j1w.bkt.clouddn.com/1_2.png)
+
+但是没有flag，通过php://filter获取Y29uZmln.php源代码（图三）
+
+![Alt text](http://p1wq82j1w.bkt.clouddn.com/1_3.png)
+
+Base64解密后得到flag（图四）。
+
+![Alt text](http://p1wq82j1w.bkt.clouddn.com/1_4.png)
 
 #### 4.Reference
 PHP 手册：[PHP 手册](http://php.net/manual/zh/function.include.php)  
+
 谈一谈php://filter的妙用-Phithon：[谈一谈php://filter的妙用-Phithon](https://www.leavesongs.com/PENETRATION/php-filter-magic.html)
 
 

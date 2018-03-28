@@ -55,7 +55,9 @@
 
 #### 5.Reference
 
-由PHP小tip引发的思考（PHP优先级）：https://www.t00ls.net/viewthread.php?from=notice&tid=42223
-CTF 之 PHP 黑魔法总结 ：http://www.zjicmisa.org/index.php/archives/112/
+由PHP小tip引发的思考（PHP优先级）：https://www.t00ls.net/viewthread.php?from=notice&tid=42223  
+
+CTF 之 PHP 黑魔法总结 ：http://www.zjicmisa.org/index.php/archives/112/  
+
 运算符优先级：http://php.net/manual/zh/language.operators.precedence.php
  
