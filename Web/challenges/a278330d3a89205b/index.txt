@@ -1,0 +1,12 @@
+<?php
+function function_encode($str){
+	$a = strrev($str);  //strrev:反转字符串。
+	for($b=0;$b<strlen($a);$b++){
+		$c = substr($a, $b, 1);  //substr():返回字符串的一部分。
+		$d = ord($c)+1;  //ord() 函数返回字符串的首个字符的 ASCII 值。
+		$c = chr($d);  //返回指定的字符
+		$e = $e.$c;
+	}
+	return str_rot13(strrev(base64_encode($e)));  //str_rot13() 函数对字符串执行 ROT13 编码。
+}
+?>

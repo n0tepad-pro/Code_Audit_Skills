@@ -1,20 +1,21 @@
 # VulnCTF | Web
 
 *  Web1 | LFI | 伪协议 : [abf20c91a442da48](./challenges/abf20c91a442da48) 
-          
 *  Web2 | PHP黑魔法 | strcmp : [5c55674b83536ad3](./challenges/5c55674b83536ad3)           
-
 *  Web3 | PHP黑魔法 | 弱类型==与===比较 : [9630e9ba0442fa3a](./challenges/9630e9ba0442fa3a)         
-
 *  Web4 | PHP优先级 | 绕过and后面的is_numeric() : [c569d1f25f24fc39](./challenges/c569d1f25f24fc39)  
-
 *  Web5 | PHP黑魔法 | ereg()截断 : [de1dd7a18864371c](./challenges/de1dd7a18864371c)           
-
 *  Web6 | PHP弱类型 | 绕过$a==0 : [c9bf52aa72e0299b](./challenges/c9bf52aa72e0299b)              
-
 *  Web7 | PHP黑魔法 | 伪协议绕过file_get_contents() : [4ca0e6cc62cd6a0a](./challenges/4ca0e6cc62cd6a0a)
-
 *  Web8 | PHP黑魔法 | extract变量覆盖 : [08395e0fda9cae71](./challenges/08395e0fda9cae71)       
-
-*  Web9 | PHP黑魔法 | : [e859844deee8ef60](./challenges/e859844deee8ef60)                    
+*  Web9 | PHP黑魔法 | 自定义header头的CTF中的考点-1（签到题必会） : [e859844deee8ef60](./challenges/e859844deee8ef60)       
+*  Web10 | PHP黑魔法 | 自定义header头的CTF中的考点-2（签到题必会） : [8a6d6e0271aea30b](./challenges/8a6d6e0271aea30b)  
+*  Web11 | PHP黑魔法 | 容易被忽视的可控输入点 - $_SERVER["HTTP_X_FORWARDED_FOR"]: [47918afe913667ce](./challenges/47918afe913667ce)  
+*  Web12 | PHP黑魔法 | 前端的URL编码并不等于后端的URL编码 - 浏览器疑似URL解码 : [7406130cd8c90477](./challenges/7406130cd8c90477)  
+*  Web13 | PHP黑魔法 | 基于业务流程的另类SQL注入 : [b32da37efa29770d](./challenges/b32da37efa29770d)  
+*  Web14 | PHP黑魔法 | web中常见的保护数据的方式 - 加密和解密 : [a278330d3a89205b](./challenges/a278330d3a89205b)  
+*  Web15 | PHP黑魔法 | sha1()的缺陷 : [12e9bcb7421fd4b3](./challenges/12e9bcb7421fd4b3)  
+*  Web16 | PHP黑魔法 | : [9e0d16dedcbe11b3](./challenges/9e0d16dedcbe11b3)  
+*  Web17 | PHP黑魔法 | : [d804d1f9eb50c010](./challenges/d804d1f9eb50c010)  
+*  Web18 | PHP黑魔法 | : [480724f761a96068](./challenges/480724f761a96068)  
 

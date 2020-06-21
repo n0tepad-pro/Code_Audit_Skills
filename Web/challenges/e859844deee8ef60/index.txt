@@ -1,0 +1,15 @@
+<?php
+$key = 'MTUzNDQwMTI4MQ==';
+$flag = 'flag{header_is_true}';
+$pass_key = $_POST['key'];
+if($pass_key){
+	if($pass_key!==$key){
+		header('Content-Row: MTUzNDQwMTI4MQ==');
+	}else{
+		echo $flag;
+	}
+}else{
+	echo 'False';
+}
+
+?>
