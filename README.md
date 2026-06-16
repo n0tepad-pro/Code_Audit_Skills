@@ -1,7 +1,7 @@
 # Code_Audit_Skills
 
 **维护者**：n0tepad  
-**仓库**：[n0tepad-pro/CTF_Code_Audit](https://github.com/n0tepad-pro/CTF_Code_Audit)（计划更名为 `Code_Audit_Skills`）
+**仓库**：[n0tepad-pro/Code_Audit_Skills](https://github.com/n0tepad-pro/Code_Audit_Skills)
 
 ---
 
